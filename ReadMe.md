@@ -97,7 +97,9 @@ Poly1.java
  }
 ```
 
-#instanceof - polymorphism ilişkisi       
+
+## instanceof - polymorphism ilişkisi       
+
 Obje vereceğiz objenin hangi sınıftan olduğuna bakacağız       Kedi sınıfı aynı zamanda Hayvan sınıfından miras alıyor. Bu yüzden superclassla kıyaslanırsa inheritance olduğu için true döner. Bütün classlar objeden türüyor. (Object class)
 
 Polymorphism kullanmazsak bütün nesneleri instanceof ile kontrol etmemiz gerekir. Yeni bir sınıf üretirsek ve Hayvan sınıfından miras alırsa yine kontrol etmemiz gerekecek ama polymorphism bu iş yükünü azaltıyor.
